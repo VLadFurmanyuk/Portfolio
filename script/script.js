@@ -6,7 +6,7 @@ $(document).ready(function (){
         slidesToScroll: 1,
         infinite: true,
         autoplay: true,
-        autoplaySpeed: 2000,
+        autoplaySpeed: 1000,
         cssEase: 'linear',
         // cssEase: 'cubic-bezier(0.600, -0.1, 0.555, 0.045)',
         // easing: 'easeOutElastic',
@@ -17,7 +17,7 @@ $(document).ready(function (){
                 settings: {
                     slidesToShow: 6,
                     slidesToScroll: 3,
-                    autoplaySpeed: 4000,
+                    autoplaySpeed: 2000,
                 }
             },
             {
@@ -25,7 +25,7 @@ $(document).ready(function (){
                 settings: {
                     slidesToShow: 4,
                     slidesToScroll: 3,
-                    autoplaySpeed: 4000,
+                    autoplaySpeed: 2000,
                 }
             },
             {
@@ -33,7 +33,7 @@ $(document).ready(function (){
                 settings: {
                     slidesToShow: 3,
                     slidesToScroll: 3,
-                    autoplaySpeed: 4000,
+                    autoplaySpeed: 2000,
                 }
             },
             {
@@ -41,7 +41,7 @@ $(document).ready(function (){
                 settings: {
                     slidesToShow: 2,
                     slidesToScroll: 2,
-                    autoplaySpeed: 4000,
+                    autoplaySpeed: 2000,
                 }
             }
         ]
