@@ -1,3 +1,12 @@
+@media screen and (max-width: 1200px){
+
+    /*ANIMATIONS*/
+
+    .left-image{
+        left: -620px;
+    }
+}
+
 @media screen and (max-width: 1024px){
 
     /*ABOUT*/
@@ -151,25 +160,30 @@
     .right-image{
         position: absolute;
         right: -450px;
-        top: 150px;
+        top: 10px;
         width: 635px;
         height: 635px;
-
     }
 
     .background-image-right{
         position: absolute;
         top: 0;
-        left: 420px;
+        left: 415px;
+    }
+
+}
+
+@media screen and (max-width: 750px){
+
+    .right-image{
+        opacity: 0;/*АНІМАЦІЯ ЗНИКНЕННЯ ЛІВОГО ШАРА ПРИ МОБІЛЬНІЙ ВЕРСІЇ САЙТУ*/
+        transition: 2s ease;/*АНІМАЦІЯ ЗНИКНЕННЯ ЛІВОГО ШАРА ПРИ МОБІЛЬНІЙ ВЕРСІЇ САЙТУ*/
     }
 }
+
 @media screen and (max-width: 576px){
 
 /*ANIMATION*/
-
-    .right-image{
-        display: none;
-    }
 
     .left-image{
         left: -440px;
