@@ -212,6 +212,7 @@ body{
     animation: animation_2 alternate 30s infinite;
     width: 900px;
     height: 799px;
+    transition: all 1s ease;
 }
 
 .right-image{
@@ -221,6 +222,7 @@ body{
     width: 635px;
     height: 635px;
     animation: animation_2 alternate 30s infinite;
+    transition: all 1s ease;
 
 }
 
